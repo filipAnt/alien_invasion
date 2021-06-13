@@ -1,7 +1,9 @@
 import pygame
 
+
 class Ship:
     """Class to manage space ship"""
+
     def __init__(self, ai_game):
         """init space ship and start location"""
         self.screen = ai_game.screen
