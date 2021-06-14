@@ -9,6 +9,9 @@ class GameStats:
         # Run game in inactive state
         self.game_active = False
 
+        # High score
+        self.high_score = 0
+
     def reset_stats(self):
         """initialize data that can be updated while game is running"""
         self.ships_left = self.settings.ship_limit
