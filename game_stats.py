@@ -6,8 +6,8 @@ class GameStats:
         self.settings = ai_game.settings
         self.reset_stats()
 
-        # Activate game
-        self.game_active = True
+        # Run game in inactive state
+        self.game_active = False
 
     def reset_stats(self):
         """initialize data that can be updated while game is running"""
